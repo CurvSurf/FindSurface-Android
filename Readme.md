@@ -20,7 +20,7 @@ These are the samples to help you get started to make your application with the 
 
 ### Q. How do I import this framework to my project?
 
-Download [the library](TBD) and add the following depedency in your module's `gradle.build` file:
+Download [the library](https://github.com/CurvSurf/FindSurface-Android/releases/tag/v1.0.0) and add the following depedency in your module's `gradle.build` file:
 
 ````kotlin
 dependencies {
