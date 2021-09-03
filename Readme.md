@@ -12,7 +12,7 @@ This library is the implementation of the FindSurface library for Android (Java/
 
 These are the samples to help you get started to make your application with the framework (more samples are to be added in the future):
 
-- [BasicDemo (Kotlin)](TBD)
+- [BasicDemo (Kotlin)](https://github.com/CurvSurf/FindSurface-BasicDemo-Android)
 
 
 
@@ -20,7 +20,7 @@ These are the samples to help you get started to make your application with the 
 
 ### Q. How do I import this framework to my project?
 
-Download [the library](https://github.com/CurvSurf/FindSurface-Android/releases/tag/v1.0.0) and add the following depedency in your module's `gradle.build` file:
+Download and unzip [the library release](https://github.com/CurvSurf/FindSurface-Android/releases/) and add the following depedency in your module's `gradle.build` file:
 
 ````kotlin
 dependencies {
