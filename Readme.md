@@ -4,7 +4,7 @@
 
 ## Overview
 
-This library is the implementation of the FindSurface library for Android (Java/Kotlin).
+This library is the implementation of the **FindSurface** library for **Android (Java/Kotlin).**
 
 
 
