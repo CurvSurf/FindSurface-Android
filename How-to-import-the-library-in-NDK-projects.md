@@ -2,19 +2,19 @@
 
 > Note: This document describes how to import the FindSurface library in your Android NDK projects. Follow the instructions below only if your projects invoke FindSurface API on the native side (C/C++).
 
-When using FindSurface APIs in NDK projects, `libFindSurface.so` file that contains the native APIs is required to link the APIs invoked in the native side to the projects. Even though the file is already embedded in [`findsurface.aar`](), it is still needed for the linking process. As the file is required only for the build-time, you can access the file by extracting it from the aar file, as an intermediate input for the linking process, as in [the Google ARCore library](). 
+When using FindSurface APIs in NDK projects, `libFindSurface.so` file that contains the native APIs is required to link the APIs invoked in the native side to the projects. Even though the file is already embedded in [`findsurface.aar`](https://github.com/CurvSurf/FindSurface-Android/releases), it is still needed for the linking process. As the file is required only for the build-time, you can access the file by extracting it from the aar file, as an intermediate input for the linking process, as in [the Google ARCore NDK library](https://developers.google.com/ar/develop/c/enable-arcore). 
 
 
 
 ## Getting the Header Files
 
-You have to download the header files [here]() because the headers for the native side (C/C++) are not included in the .aar file. Put the files in your source directory or other places (additional steps required).
+You have to download the header files [here](https://github.com/CurvSurf/FindSurface-Windows/releases) because the headers for the native side (C/C++) are not included in the .aar file. Put the files in your source directory or other places (additional steps required).
 
 
 
 ## Extracting the Native Library
 
-You could get the file by manually unzipping the aar file after converting the file extension into '.zip'. Instead, there is a better way. [This Google ARCore document]() introduces a task that automatically extracts the temporary so file for the build process. If you are already using ARCore, you will find that ARCore does the same things for itself. In that case, take advantage of the things done by ARCore.
+You could get the file by manually unzipping the aar file after converting the file extension into '.zip'. Instead, there is a better way. [This Google ARCore document](https://developers.google.com/ar/develop/c/enable-arcore) introduces a task that automatically extracts the temporary so file for the build process. If you are already using ARCore, you will find that ARCore does the same things for itself. In that case, take advantage of the things done by ARCore.
 
 
 
