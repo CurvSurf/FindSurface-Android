@@ -13,6 +13,7 @@ This library is the implementation of the **FindSurface** library for **Android 
 These are the samples to help you get started to make your application with the library (more samples are to be added in the future):
 
 - [BasicDemo (Kotlin)](https://github.com/CurvSurf/FindSurface-BasicDemo-Android)
+- BasicDemo (NDK C/C++) - to be updated in the future.
 
 
 
@@ -28,6 +29,8 @@ dependencies {
 }
 ````
 
+A recommended path is `libs/findsurface.aar` to make the project self-contained.  
+
 And then, click the "Sync Project with Gradle Files" button on the top left corner of the Android Studio.
 
 That's it. You're all set to go.
@@ -36,7 +39,7 @@ That's it. You're all set to go.
 
 ### Q. Does this library work on Android Native/NDK?
 
-You have to directly use the header files and the .so file embedded in the provided aar file in order to link the native side. If your app has both native part (c/c++) and Java/Kotlin part, use the aar file when you build the app. Details on the steps will be updated in the future.
+You have to directly use the header files and the .so file embedded in the provided aar file in order to link the native side. Refer to [this document](https://github.com/CurvSurf/FindSurface-Android/blob/master/How-to-import-the-library-in-NDK-projects.md) for details.
 
 ## ---
 
